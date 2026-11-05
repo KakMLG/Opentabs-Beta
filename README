@@ -13,33 +13,33 @@ Works with **Revit 2022, 2023, 2024, 2025 and 2026** (Windows).
 ### Connect
 Select a bundle of conduits, cable trays, pipes or ducts and connect their free ends in one click — couplings, elbows, or an **offset: a diagonal with two elbows**. After the connection you can pick another angle (11.25°, 22.5°, 30°, 45°, 60° or a custom value) and apply it again without undoing by hand.
 
-![Connect — elbow](docs/connect-elbow.gif)
-![Connect — offset](docs/connect-offset.gif)
+![Connect — elbow](docs/02-connect-knee.gif)
+![Connect — offset](docs/03-connect-diagonal.gif)
 
 ### Split
 Cut a whole bundle at once: select the elements, enter the gap (mm or inches), click one point — every selected element is cut across the bundle there. Revit 2024 and newer: split **with a gap**; older versions: plain split with a coupling.
 
-![Split](docs/split.gif)
+![Split](docs/06-split.gif)
 
 ### Space
 Equal center-to-center spacing for a bundle of parallel conduits: by a **conduit spacing table** (depends on the sizes of neighbouring conduits), by a **fixed distance**, or **evenly between the two outermost** elements.
 
-![Space](docs/space.gif)
+![Space](docs/05-space.gif)
 
 ### Trace
 Select a whole run — conduits, trays, pipes, ducts and their fittings — or the whole electrical circuit of the selected devices and panels.
 
-![Trace](docs/trace.gif)
+![Trace](docs/04-trace.gif)
 
 ### Align
 Multi-align for **any** elements in the current view: left, right, top, bottom, centers, and distribute evenly.
 
-![Align](docs/align.gif)
+![Align](docs/07-align.gif)
 
 ### Colors + Row Wrap
 Color-coded view tabs (one color per open model) and tabs wrapped into several rows, with close buttons.
 
-![Colors and Row Wrap](docs/colors-row-wrap.gif)
+![Colors and Row Wrap](docs/01-interface-colors-row-wrap.gif)
 
 ### More tools
 - **Export to Excel / Import from Excel** — export a schedule to `.xlsx` (one row per element, in the schedule's own sort order), edit the values in Excel, import them back. Excel does not have to be installed for the plugin itself.
